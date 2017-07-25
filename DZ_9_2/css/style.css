@@ -1,0 +1,58 @@
+.container {
+    margin-top: 4%;
+}
+
+.logo, .sidebar {
+    background: #537D73;
+    color: #fff;
+    text-align: center;
+    min-height: 80px;
+    padding-top: 26px;
+    border-radius: 6px;
+    
+}
+
+h5 {
+    text-align: center;
+    color: #40474F;
+}
+
+.sidebar-navigation>li {
+    padding: 20px;
+}
+
+.nav li{
+    width: 14.28%;
+    width: calc(100%/7);
+    background: #537D73;
+    color: #fff;
+    float: left;
+    padding: 10px 0;
+    text-align: center;
+    border-right: 1px solid #fff;
+    border-radius: 6px;
+}
+
+.nav2 li {
+    color: #40474F;
+    width: calc(100%8);
+    float: left;
+    padding: 10px;
+}
+
+
+.nav2 {
+    margin-left: 100px;
+}
+
+.nav::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.nav2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
